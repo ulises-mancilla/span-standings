@@ -12,6 +12,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import lombok.extern.log4j.Log4j2;
 
+/***
+ * Utility class for reading and writing the file.
+ */
 @Log4j2
 public class FileUtils {
 

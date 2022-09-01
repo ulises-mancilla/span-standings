@@ -3,7 +3,6 @@ package com.span.standings.procesor;
 import com.span.standings.domain.Match;
 import com.span.standings.domain.Standings;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;

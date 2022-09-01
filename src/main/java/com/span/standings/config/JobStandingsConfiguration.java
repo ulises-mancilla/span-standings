@@ -13,6 +13,13 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/***
+ * Job Configurations
+ * Three steps has been defined
+ *  1. Read File and put the content into the execution context, available for the second step.
+ *  2. Read the matches and create the standings.
+ *  3. While writing the output file a rankings is generated.
+ */
 @Configuration
 @EnableBatchProcessing
 public class JobStandingsConfiguration {
