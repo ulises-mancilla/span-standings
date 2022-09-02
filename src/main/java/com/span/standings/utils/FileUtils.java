@@ -14,6 +14,7 @@ import lombok.extern.log4j.Log4j2;
 
 /***
  * Utility class for reading and writing the file.
+ * It also includes a regex expression in order to gather lines and map to an object. 
  */
 @Log4j2
 public class FileUtils {
